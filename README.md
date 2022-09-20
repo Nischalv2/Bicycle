@@ -62,3 +62,21 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+
+
+–	URL to the API application on Heroku. 
+postgres://jaxnkhawwmsuvh:96103f7a7d824a76fd4e3bf6526ed28f0cffceae14ba8f751c9f7337718bec53@ec2-52-207-90-231.compute-1.amazonaws.com:5432/d3sujqn1o8rn7q
+https://bicycle-store.herokuapp.com/
+
+–	URL to the API documentation on Postman. 
+https://web.postman.co/workspace/864ad42b-e897-4e94-8b24-e045037bb8e2/documentation/22825407-1871b530-2c8f-4321-8bdd-c19e4f55103b
+https://web.postman.co/workspace/864ad42b-e897-4e94-8b24-e045037bb8e2/documentation/22825407-f4a7c47c-dbef-4ccf-aec3-d2d2cc0c78e6
+
+–	How do you setup the environment for development, i.e., after the repository is cloned, what do you need to run the API application locally?
+local server credentials
+–	How do you deploy the API application to Heroku? 
+connect to source code via github repo and also by postgressql, clear DB installations and migrating files
+
