@@ -1,3 +1,3 @@
 <?php
-echo "This is Heroku server..";
+echo "This is Heroku server...";
 ?>
