@@ -1,0 +1,22 @@
+[
+    {
+        "order_quantity":2,
+        "customer_id":1,
+        "item_id":1
+    },
+    {
+        "order_quantity":2,
+        "customer_id":1,
+        "item_id":2
+    },
+    {
+        "order_quantity":2,
+        "customer_id":2,
+        "item_id":1
+    },
+    {
+        "order_quantity":2,
+        "customer_id":2,
+        "item_id":2
+    }
+]

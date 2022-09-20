@@ -1,0 +1,17 @@
+[
+    {
+        "customer_name":"Gautam",
+        "customer_number":"0210730647",
+        "customer_email":"gautam@gmail.com"
+    },
+    {
+        "customer_name":"Naresh",
+        "customer_number":"0220730747",
+        "customer_email":"naresh@gmail.com"
+    },
+    {
+        "customer_name":"Nischal",
+        "customer_number":"0201780544",
+        "customer_email":"nischal@gmail.com"
+    }
+]
