@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Bike;
 
-class CustomerController extends Controller
+class BikeController extends Controller
 {
     /**
      * Display a listing of the resource.

@@ -55,9 +55,9 @@ Route::group(['prefix' => 'v1/deliveries'], function (){
 });
 
 Route::group(['prefix' => 'v1/bikes'], function (){
-    Route::get('/', [DeliveryController::class, 'index']);
-    Route::get('/{id}', [DeliveryController::class, 'show']);
-    Route::post('/', [DeliveryController::class, 'store']);
-    Route::put('/{id}', [DeliveryController::class, 'update']);
-    Route::delete('/{id}', [DeliveryController::class, 'destroy']);
+    Route::get('/', [BikeController::class, 'index']);
+    Route::get('/{id}', [BikeController::class, 'show']);
+    Route::post('/', [BikeController::class, 'store']);
+    Route::put('/{id}', [BikeController::class, 'update']);
+    Route::delete('/{id}', [BikeController::class, 'destroy']);
 });
