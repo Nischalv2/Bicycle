@@ -3,6 +3,7 @@ use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\ItemController;
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\DeliveryController;
+use App\Http\Controllers\BikeController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -46,6 +47,14 @@ Route::group(['prefix' => 'v1/orders'], function (){
 });
 
 Route::group(['prefix' => 'v1/deliveries'], function (){
+    Route::get('/', [DeliveryController::class, 'index']);
+    Route::get('/{id}', [DeliveryController::class, 'show']);
+    Route::post('/', [DeliveryController::class, 'store']);
+    Route::put('/{id}', [DeliveryController::class, 'update']);
+    Route::delete('/{id}', [DeliveryController::class, 'destroy']);
+});
+
+Route::group(['prefix' => 'v1/bikes'], function (){
     Route::get('/', [DeliveryController::class, 'index']);
     Route::get('/{id}', [DeliveryController::class, 'show']);
     Route::post('/', [DeliveryController::class, 'store']);
