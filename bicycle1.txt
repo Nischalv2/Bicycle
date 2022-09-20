@@ -1,0 +1,3 @@
+CLEARDB_DATABASE_URL = mysql://bc7f2a918dbc84:c0c8a040@us-cdbr-east-06.cleardb.net/heroku_4380fcd314a835e?reconnect=true
+
+postgres://egzraatkyybzbp:8fef7b273d9830e9bb50e028314454efe36a7a6622f7de0ff5022abd5d9129bc@ec2-52-207-90-231.compute-1.amazonaws.com:5432/d6d8mv2v19m6v7
